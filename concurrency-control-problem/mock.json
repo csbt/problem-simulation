@@ -1,6 +1,25 @@
 {
-  "userId": 1,
-  "id": 1,
-  "title": "delectus aut autem",
-  "completed": false
+  "nodes": [
+    { "id": "uuid1", "name": "root", "type": "directory", "children": ["2", "5"], "parent": null, "depth": 1, "createAt": "", "updateAt": ""},
+    { "id": "uuid2", "name": "folder1", "type": "directory", "children": ["2", "5"], "parent": "uuid1", "depth": 2, "createAt": "", "updateAt": ""},
+    { "id": "uuid3", "name": "file1.txt", "type": "file", "parent": "uuid2", "url": "", "platform": "gpt", "depth": 3, "createAt": "", "updateAt": ""}
+  ],
+  "platform": {
+    "gpt": {
+      "userId": "",
+      "total": 1
+    },
+    "bard": {
+      "userId": "",
+      "total": 0
+    },
+  },
+  "nodesInfo": {
+    "total": 3,
+    "directory": 2,
+    "file": 1
+  },
+  "meta": {
+    "version": "1.0.0",
+  }
 }
